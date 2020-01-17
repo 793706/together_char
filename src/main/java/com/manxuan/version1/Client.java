@@ -129,6 +129,9 @@ class Read implements Runnable {
    */
 
   private static void pri_println(String localName, String fromName, String toName, String msg) {
+    SaveMessage saveMessage = new SaveMessage();
+    //系统提示
+    String prompt="";
     //是否发出消息
     boolean send = true;
     //发送信息的格式
@@ -142,21 +145,26 @@ class Read implements Runnable {
         send = false;
       } else {
         //自己名字等于接受者不等于发送者-----------自己收到一条私聊消息
-        System.out.println("系统提示:收到一条私聊消息");
+        prompt="系统提示:收到一条私聊消息";
       }
     } else if (localName.equals(fromName)) {
       //自己名字不等于接受者等于发送者-----------自己发出一条私聊信息
       fromName="你";
-      System.out.println("系统提示:向"+toName+"发出一条私聊消息");
+      prompt="系统提示:向"+toName+"发出一条私聊消息";
     } else {
       //自己名字不等于接受者不等于发送者---------不关你事
       //不发送
       send = false;
     }
     if(send==true) {
+      if(!"".equals(prompt)){
+        System.out.println(prompt);
+      }
       System.out.println(fromName+":");
       System.out.println("  " + msg);
     }
+    msg=prompt+"/n"+fromName+":"+msg;
+    saveMessage.saveMessageToFile(msg, localName);
   }
 
   /**
@@ -166,6 +174,7 @@ class Read implements Runnable {
    * @param msg 要发送的昵称
    */
   public static void all_PrintAll(String localName,String fromName,String msg){
+    SaveMessage saveMessage = new SaveMessage();
     //发送信息的格式
     //{昵称}：
     //          {信息}
@@ -175,5 +184,8 @@ class Read implements Runnable {
     }
     System.out.println(fromName+":");
     System.out.println("  " + msg);
+    msg=fromName+":"+msg;
+    saveMessage.saveMessageToFile(msg, localName);
+
   }
 }
