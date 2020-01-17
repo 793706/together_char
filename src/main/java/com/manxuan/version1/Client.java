@@ -25,7 +25,7 @@ public class Client implements Runnable {
     System.out.println("****一起侃：" + name + "客户端***********");
     try {
       socket = new Socket("192.168.1.58", 9999);
-      System.out.println("已经连上服务器");
+      System.out.println("已经连上服务器，开始聊天。"+"\n"+"群聊：输入信息即可发送到每个群聊用户"+"\n"+"输入{用户昵称}+{:}+{你要发送的信息}即可将{你要发送的信息}发送给{用户昵称}用户");
     } catch (Exception e) {
       if (ERRORMSG_CONNECTION_REFUSED.equals(e.getMessage())) {
         System.out.println("连接不到服务器，请开启服务器");

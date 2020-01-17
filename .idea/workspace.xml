@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bb81029-b512-45f2-a142-b3a772b65169" name="Default Changelist" comment="" />
+    <list default="true" id="0bb81029-b512-45f2-a142-b3a772b65169" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manxuan/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manxuan/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manxuan/version1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manxuan/version1/Client.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/server/target/" />
@@ -66,26 +71,54 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-297864617">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="106" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="106" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="demo_together" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version1/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+            <state relative-caret-position="594">
+              <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version1/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1100">
-              <caret line="107" column="56" lean-forward="true" selection-start-line="107" selection-start-column="56" selection-end-line="107" selection-end-column="56" />
+            <state relative-caret-position="440">
+              <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,6 +142,9 @@
       <find>name</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -123,9 +159,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/manxuan/version1/SaveMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/manxuan/version1/util/SaveMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/manxuan/version1/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/manxuan/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/manxuan/version1/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/manxuan/version1/Server.java" />
       </list>
     </option>
   </component>
@@ -160,85 +196,80 @@
     <option name="width" value="1184" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="demo_together" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo_together" type="462c0819:PsiDirectoryNode" />
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="demo_together" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo_together" type="462c0819:PsiDirectoryNode" />
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="demo_together" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo_together" type="462c0819:PsiDirectoryNode" />
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="demo_together" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo_together" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo_together" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo_together" type="462c0819:PsiDirectoryNode" />
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="demo_together" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo_together" type="462c0819:PsiDirectoryNode" />
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="demo_together" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo_together" type="462c0819:PsiDirectoryNode" />
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="manxuan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="demo_together" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo_together" type="462c0819:PsiDirectoryNode" />
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="manxuan" type="462c0819:PsiDirectoryNode" />
-              <item name="version1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="demo_together" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo_together" type="462c0819:PsiDirectoryNode" />
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="manxuan" type="462c0819:PsiDirectoryNode" />
               <item name="version1" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="demo_together" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo_together" type="462c0819:PsiDirectoryNode" />
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -251,20 +282,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579172418828" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IOandNIO" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579228403206" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -278,10 +308,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.manxuan.App" />
-      <module name="demo_together" />
+      <module name="base" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.manxuan.*" />
@@ -353,9 +383,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.SaveMessage" />
         <item itemvalue="Application.Client (1)" />
       </list>
@@ -375,11 +405,12 @@
       <workItem from="1578965333696" duration="24028000" />
       <workItem from="1579052325815" duration="27956000" />
       <workItem from="1579138670384" duration="27463000" />
+      <workItem from="1579227289702" duration="1023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88821000" />
+    <option name="totallyTimeSpent" value="89844000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,14 +423,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50145346" side_tool="true" weight="0.14765458" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4985465" visible="true" weight="0.2771855" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4985465" visible="true" weight="0.2803838" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.329718" />
@@ -407,7 +437,7 @@
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49946696" visible="true" weight="0.30151844" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49946696" visible="true" weight="0.30076003" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.40455532" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.31344903" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -471,12 +501,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/test.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/net/ServerSocket.java">
@@ -493,23 +523,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/Server.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/Client.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -532,12 +547,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -546,9 +561,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/file/text.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/file/text.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/file/李四的聊天记录.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -589,9 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,27 +612,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version1/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="242">
+          <caret line="11" column="119" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="119" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version1/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100">
-          <caret line="107" column="56" lean-forward="true" selection-start-line="107" selection-start-column="56" selection-end-line="107" selection-end-column="56" />
+        <state relative-caret-position="440">
+          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version1/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
         </state>
       </provider>
     </entry>
