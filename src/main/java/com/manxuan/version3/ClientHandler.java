@@ -1,20 +1,26 @@
 package com.manxuan.version3;
 
+import com.manxuan.version3.util.SaveMessage;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
 import java.nio.charset.Charset;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.Set;
 
 public class ClientHandler implements Runnable {
-
+  SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+  private static SaveMessage saveMessage = new SaveMessage();
   private Selector selector;
+  private String name;
 
-  public ClientHandler(Selector selector) {
+  public ClientHandler(Selector selector,String name) {
     this.selector = selector;
+    this.name=name;
   }
 
   @Override
@@ -70,7 +76,11 @@ public class ClientHandler implements Runnable {
 
     // 将服务器端的响应数据打印到本地
     if (reponse.length() > 0) {
-      System.out.println(":: " + reponse);
+      String msg="["+sdf.format(new Date())+"]"+ reponse;
+      System.out.println(msg);
+      //保存聊天记录到文件
+      saveMessage.saveMessageToFile(msg,name);
     }
   }
+
 }

@@ -22,14 +22,20 @@ public class Client {
     Selector selector = Selector.open();
     socketChannel.configureBlocking(false);
     socketChannel.register(selector, SelectionKey.OP_READ);
-    new Thread(new ClientHandler(selector)).start();
+    new Thread(new ClientHandler(selector,nickName)).start();
+
+    // 第一次连接，向服务器端发送客户端个人信息（名字）
+    Scanner scanner = new Scanner(System.in);
+    {
+        socketChannel.write(Charset.forName("UTF-8").encode("UserName:" + nickName));
+    }
 
     // 向服务器端发送数据
-    Scanner scanner = new Scanner(System.in);
+
     while (scanner.hasNextLine()) {
       String request = scanner.nextLine();
       if ((request != null) && (request.length() > 0)) {
-        socketChannel.write(Charset.forName("UTF-8").encode(nickName + " : " + request));
+        socketChannel.write(Charset.forName("UTF-8").encode(nickName + ":" + request));
       }
     }
   }

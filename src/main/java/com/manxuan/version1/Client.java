@@ -186,6 +186,5 @@ class Read implements Runnable {
     System.out.println("  " + msg);
     msg=fromName+":"+msg;
     saveMessage.saveMessageToFile(msg, localName);
-
   }
 }

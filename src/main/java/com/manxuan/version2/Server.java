@@ -11,6 +11,7 @@ import java.nio.channels.SocketChannel;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Vector;
 
 public class Server implements Runnable {
@@ -18,6 +19,7 @@ public class Server implements Runnable {
   private Selector selector;
   private SelectionKey serverKey;
   private Vector<String> usernames;
+  //private Map<String,>
   private static final int PORT = 9999;
 
   SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -100,7 +102,7 @@ public class Server implements Runnable {
       }
       String msg = buf.toString();
 
-      System.out.println("客户端发来"+msg);
+      System.out.println("客户端发来" + msg);
 
       //如果此数据是客户端连接时发送的数据
       if (msg.indexOf("open_") != -1) {
@@ -165,17 +167,17 @@ public class Server implements Runnable {
   }
 
   public void writeMsg(SelectionKey key) {
-  try{
-    SocketChannel channel =(SocketChannel)key.channel();
-    Object attachment =key.attachment();
+    try {
+      SocketChannel channel = (SocketChannel) key.channel();
+      Object attachment = key.attachment();
 
-    //获取key的值之后，要把key的值置空，避免影响下一次的使用
-    key.attach("");
+      //获取key的值之后，要把key的值置空，避免影响下一次的使用
+      key.attach("");
 
-    channel.write(ByteBuffer.wrap(attachment.toString().getBytes()));
-    key.interestOps(SelectionKey.OP_READ);
-  }catch (Exception e){
-    e.printStackTrace();
+      channel.write(ByteBuffer.wrap(attachment.toString().getBytes()));
+      key.interestOps(SelectionKey.OP_READ);
+    } catch (Exception e) {
+      e.printStackTrace();
     }
   }
 

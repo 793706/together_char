@@ -90,6 +90,20 @@ public class Client implements Runnable {
           while (iterator.hasNext()) {
             SelectionKey key = iterator.next();
             if (key.isReadable()) {
+              SocketChannel socketChannel=(SocketChannel)key.channel();
+
+              ByteBuffer buffer = ByteBuffer.allocate(1024);
+              //假如客户端关闭了通道，这里在对该通道read数据，会发生IOException，捕获到Exception后，关闭掉该channel，取消该key
+              int number = socketChannel.read(buffer);
+              StringBuffer buf = new StringBuffer();
+              //如果读取到数据
+              if (number > 0) {
+                //让buffer翻转，把buffer中的数据读取出来
+                buffer.flip();
+                buf.append(new String(buffer.array(), 0, number));
+              }
+              msg = buf.toString();
+              System.out.println("服务端发来的信息"+msg);
               System.out.println("****************");
             }
           }

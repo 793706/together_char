@@ -1,0 +1,19 @@
+Server的聊天记录
+[2020-03-11 14:30:54]UserName:ClientA
+[2020-03-11 14:31:02]ClientA:大家好
+[2020-03-11 14:31:07]ClientA:quit
+[2020-03-11 14:31:34]UserName:ClientA
+[2020-03-11 14:31:36]ClientA:大家伙
+[2020-03-11 14:31:42]ClientA:quit
+[2020-03-11 14:33:03]UserName:ClientB
+[2020-03-11 14:33:10]UserName:ClientA
+[2020-03-11 14:33:13]ClientB:大家好
+[2020-03-11 14:33:20]ClientB:你好
+[2020-03-11 14:35:35]UserName:ClientA
+[2020-03-11 14:35:41]UserName:ClientB
+[2020-03-11 14:35:50]ClientA:大家好啊
+[2020-03-11 14:35:54]ClientB:你好
+[2020-03-11 14:36:02]ClientB:你在干嘛
+[2020-03-11 14:36:10]ClientA:我在上班
+[2020-03-11 14:40:32]ClientB:quit
+用户ClientB下线
