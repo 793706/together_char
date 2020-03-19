@@ -1,13 +1,10 @@
 package com.manxuan.rpc.netty;
 
-import com.manxuan.rpc.netty.util.RpcDecoder;
-import com.manxuan.rpc.netty.util.RpcEncoder;
-import com.manxuan.rpc.netty.util.RpcRequest;
-import com.manxuan.rpc.netty.util.RpcResponse;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
+import io.netty.channel.ChannelPipeline;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
@@ -15,39 +12,40 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 public class NettyServer {
 
-  public void bind(int port) throws Exception {
+  private EventLoopGroup boss = null;
+  private EventLoopGroup worker = null;
+  private ServerHandler serverHandler;
 
-    EventLoopGroup bossGroup = new NioEventLoopGroup(); //bossGroup就是parentGroup，是负责处理TCP/IP连接的
-    EventLoopGroup workerGroup = new NioEventLoopGroup(); //workerGroup就是childGroup,是负责处理Channel(通道)的I/O事件
+  public void start() throws Exception {
+    boss = new NioEventLoopGroup();
+    worker = new NioEventLoopGroup();
 
-    ServerBootstrap sb = new ServerBootstrap();
-    sb.group(bossGroup, workerGroup)
+    serverHandler=new ServerHandler();
+
+    ServerBootstrap serverBootstrap = new ServerBootstrap();
+    serverBootstrap.group(boss, worker)
         .channel(NioServerSocketChannel.class)
-        .option(ChannelOption.SO_BACKLOG, 128) //初始化服务端可连接队列,指定了队列的大小128
-        .childOption(ChannelOption.SO_KEEPALIVE, true) //保持长连接
-        .childHandler(new ChannelInitializer<SocketChannel>() {  // 绑定客户端连接时候触发操作
+        .option(ChannelOption.SO_BACKLOG, 1024)
+        .childHandler(new ChannelInitializer<SocketChannel>() {
           @Override
-          protected void initChannel(SocketChannel sh) throws Exception {
-            sh.pipeline()
-                .addLast(new RpcDecoder(RpcRequest.class)) //解码request
-                .addLast(new RpcEncoder(RpcResponse.class)) //编码response
-                .addLast(new ServerHandler()); //使用ServerHandler类来处理接收到的消息
+          protected void initChannel(SocketChannel ch) throws Exception {
+            ChannelPipeline pipeline = ch.pipeline();
+            //添加请求处理器
+            pipeline.addLast(serverHandler);
           }
         });
-    //绑定监听端口，调用sync同步阻塞方法等待绑定操作完
-    ChannelFuture future = sb.bind(port).sync();
+    bind(serverBootstrap,8080);
+  }
 
+  public void bind(ServerBootstrap serverBootstrap, int port) throws Exception {
+    ChannelFuture future = serverBootstrap.bind(port).sync();
     if (future.isSuccess()) {
       System.out.println("服务端启动成功");
     } else {
       System.out.println("服务端启动失败");
       future.cause().printStackTrace();
-      bossGroup.shutdownGracefully(); //关闭线程组
-      workerGroup.shutdownGracefully();
+      boss.shutdownGracefully(); //关闭线程组
+      worker.shutdownGracefully();
     }
-
-    //成功绑定到端口之后,给channel增加一个 管道关闭的监听器并同步阻塞,直到channel关闭,线程才会往下执行,结束进程。
-    future.channel().closeFuture().sync();
-
   }
 }

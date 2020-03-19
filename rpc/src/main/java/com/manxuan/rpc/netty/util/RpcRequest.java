@@ -1,10 +1,23 @@
 package com.manxuan.rpc.netty.util;
 
-public class RpcRequest {
+import java.io.Serializable;
 
+public class RpcRequest implements Serializable {
+
+
+  private String requestId;
   private String className;
   private String methodName;
+  private Class<?>[]parameterTypes;
   private Object[]parameter;
+
+  public String getRequestId() {
+    return requestId;
+  }
+
+  public void setRequestId(String requestId) {
+    this.requestId = requestId;
+  }
 
   public String getClassName() {
     return className;
@@ -20,6 +33,14 @@ public class RpcRequest {
 
   public void setMethodName(String methodName) {
     this.methodName = methodName;
+  }
+
+  public Class<?>[] getParameterTypes() {
+    return parameterTypes;
+  }
+
+  public void setParameterTypes(Class<?>[] parameterTypes) {
+    this.parameterTypes = parameterTypes;
   }
 
   public Object[] getParameter() {

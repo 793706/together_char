@@ -1,32 +1,35 @@
 package com.manxuan.rpc.netty.util;
 
-public class RpcResponse {
+import java.io.Serializable;
 
-  private String className;
-  private String methodName;
-  private Object[]parameter;
+public class RpcResponse implements Serializable {
 
-  public String getClassName() {
-    return className;
+  private String requestId;
+  private String error;
+  private Object result;
+
+  public String getRequestId() {
+    return requestId;
   }
 
-  public void setClassName(String className) {
-    this.className = className;
+  public void setRequestId(String requestId) {
+    this.requestId = requestId;
   }
 
-  public String getMethodName() {
-    return methodName;
+  public String getError() {
+    return error;
   }
 
-  public void setMethodName(String methodName) {
-    this.methodName = methodName;
+  public void setError(String error) {
+    this.error = error;
   }
 
-  public Object[] getParameter() {
-    return parameter;
+  public Object getResult() {
+    return result;
   }
 
-  public void setParameter(Object[] parameter) {
-    this.parameter = parameter;
+  public void setResult(Object result) {
+    this.result = result;
   }
 }
+
