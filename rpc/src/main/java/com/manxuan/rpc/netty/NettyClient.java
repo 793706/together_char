@@ -1,5 +1,8 @@
 package com.manxuan.rpc.netty;
 
+import com.manxuan.rpc.netty.util.JSONSerializer;
+import com.manxuan.rpc.netty.util.RpcDecoder;
+import com.manxuan.rpc.netty.util.RpcEncoder;
 import com.manxuan.rpc.netty.util.RpcRequest;
 import com.manxuan.rpc.netty.util.RpcResponse;
 import com.manxuan.rpc.util.MsgMap;
@@ -46,6 +49,8 @@ public class NettyClient {
           public void initChannel(SocketChannel ch) throws Exception {
             System.out.println("正在连接中...");
             ChannelPipeline pipeline = ch.pipeline();
+            ch.pipeline().addLast(new RpcEncoder(RpcRequest.class,new JSONSerializer()));
+            ch.pipeline().addLast(new RpcDecoder(RpcResponse.class,new JSONSerializer()));
             pipeline.addLast(clientHandler); //客户端处理类
           }
         });
@@ -54,32 +59,20 @@ public class NettyClient {
     if(f.isSuccess()){
       System.out.println("连接服务端成功");
     } else {
-      System.out.println("重试次数已用完，放弃连接");
+      System.out.println("连接失败");
     }
     channel=f.channel();
-    //发起异步连接请求，绑定连接端口和host信息
-//    connect(bootstrap, host, port);
   }
 
 
-//  private void connect(Bootstrap bootstrap,String host,int port){
-//    ChannelFuture channelFuture = bootstrap.connect(host, port).addListener(future -> {
-//      if (future.isSuccess()) {
-//        System.out.println("连接服务端成功");
-//      } else {
-//        System.out.println("重试次数已用完，放弃连接");
-//      }
-//    });
-//    channel = channelFuture.channel();
-//  }
 
   public RpcResponse send(final RpcRequest request) {
-    System.out.println("准备发送消息");
+    //System.out.println("准备发送消息");
       channel.writeAndFlush(request);
-      if(MsgMap.requestMap.get(request.getRequestId())==null){
-        System.out.println("还没接收到");
+      while(MsgMap.requestMap.get(request.getRequestId())==null){
       }
     return (RpcResponse) clientHandler.getResponse(request.getRequestId());
+
   }
 
 }

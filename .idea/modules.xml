@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rpc_common/rpc_common.iml" filepath="$PROJECT_DIR$/rpc_common/rpc_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpccommon/rpccommon.iml" filepath="$PROJECT_DIR$/rpccommon/rpccommon.iml" />
+    </modules>
+  </component>
+</project>

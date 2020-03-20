@@ -1,13 +1,8 @@
 package com.manxuan.rpc.interfaces;
 
-public class UserImpl implements User {
+import com.manxuan.rpc.ioc.annotation.Bean;
 
-  public static void main(String[] args) {
-    System.out.println("");
-  }
-
-  @Override
-  public String addUser(int id) {
-    return id+"success";
-  }
+@Bean
+public class UserImpl{
+haha
 }

@@ -7,18 +7,21 @@ import io.netty.handler.codec.MessageToByteEncoder;
 
 public class RpcEncoder extends MessageToByteEncoder {
 
-  private Class<?> target;
+  private Class<?> clazz;
+  private Serializer serializer;
 
-  public RpcEncoder(Class target) {
-    this.target = target;
+  public RpcEncoder(Class<?> clazz, Serializer serializer) {
+    this.clazz = clazz;
+    this.serializer = serializer;
   }
 
+
   @Override
-  protected void encode(ChannelHandlerContext ctx, Object msg, ByteBuf out) throws Exception {
-    if (target.isInstance(msg)) {
-      byte[] data = JSON.toJSONBytes(msg); //使用fastJson将对象转换为byte
-      out.writeInt(data.length); //先将消息长度写入，也就是消息头
-      out.writeBytes(data); //消息体中包含我们要发送的数据
+  protected void encode(ChannelHandlerContext channelHandlerContext, Object msg, ByteBuf byteBuf) throws Exception {
+    if (clazz != null && clazz.isInstance(msg)) {
+      byte[] bytes = serializer.serialize(msg);
+      byteBuf.writeInt(bytes.length);
+      byteBuf.writeBytes(bytes);
     }
   }
 

@@ -3,7 +3,6 @@ package com.manxuan.rpc;
 import com.manxuan.rpc.netty.NettyClient;
 import com.manxuan.rpc.netty.util.RpcRequest;
 import com.manxuan.rpc.netty.util.RpcResponse;
-import io.netty.channel.Channel;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.util.UUID;
@@ -33,7 +32,8 @@ public class RpcInvocationHandler implements InvocationHandler {
     request.setParameter(args);
 
     RpcResponse rpcResponse=client.send(request);
-    System.out.println("--------------");
+
+    Object result=rpcResponse.getResult();
     return rpcResponse.getResult();
 
   }

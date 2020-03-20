@@ -13,7 +13,9 @@
         <option value="$PROJECT_DIR$/rpc-server/pom.xml" />
         <option value="$PROJECT_DIR$/rpc_client/pom.xml" />
         <option value="$PROJECT_DIR$/rpc_common/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc_model/pom.xml" />
         <option value="$PROJECT_DIR$/rpc_server/pom.xml" />
+        <option value="$PROJECT_DIR$/rpccommon/pom.xml" />
       </set>
     </option>
   </component>

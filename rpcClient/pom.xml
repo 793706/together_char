@@ -10,7 +10,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>rpcClient</artifactId>
+
   <dependencies>
+
     <dependency>
       <groupId>com.manxuan</groupId>
       <artifactId>rpc</artifactId>

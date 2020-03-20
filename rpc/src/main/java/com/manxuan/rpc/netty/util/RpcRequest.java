@@ -2,7 +2,7 @@ package com.manxuan.rpc.netty.util;
 
 import java.io.Serializable;
 
-public class RpcRequest implements Serializable {
+  public class RpcRequest implements Serializable {
 
 
   private String requestId;

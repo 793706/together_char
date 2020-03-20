@@ -8,31 +8,31 @@ import io.netty.handler.codec.ByteToMessageDecoder;
 import java.util.List;
 
 public class RpcDecoder extends ByteToMessageDecoder {
-  //目标对象类型进行解码
-  private Class<?> target;
+  private Class<?> clazz;
+  private Serializer serializer;
 
-  public RpcDecoder(Class target) {
-    this.target = target;
+  public RpcDecoder(Class<?> clazz, Serializer serializer) {
+    this.clazz = clazz;
+    this.serializer = serializer;
   }
-
   @Override
-  protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
-    if (in.readableBytes() < 4) { //不够长度丢弃
+  protected void decode(ChannelHandlerContext channelHandlerContext, ByteBuf byteBuf, List<Object> list) throws Exception {
+    //因为之前编码的时候写入一个Int型，4个字节来表示长度
+    if (byteBuf.readableBytes() < 4) {
       return;
     }
-    in.markReaderIndex(); //标记一下当前的readIndex的位置
-    int dataLength = in.readInt(); // 读取传送过来的消息的长度。ByteBuf 的readInt()方法会让他的readIndex增加4
-
-    if (in.readableBytes() < dataLength) { //读到的消息体长度如果小于我们传送过来的消息长度，则resetReaderIndex. 这个配合markReaderIndex使用的。把readIndex重置到mark的地方
-      in.resetReaderIndex();
+    //标记当前读的位置
+    byteBuf.markReaderIndex();
+    int dataLength = byteBuf.readInt();
+    if (byteBuf.readableBytes() < dataLength) {
+      byteBuf.resetReaderIndex();
       return;
     }
     byte[] data = new byte[dataLength];
-    in.readBytes(data);
-
-    Object obj = JSON.parseObject(data, target); //将byte数据转化为我们需要的对象
-    out.add(obj);
+    //将byteBuf中的数据读入data字节数组
+    byteBuf.readBytes(data);
+    Object obj = serializer.deserialize(clazz, data);
+    list.add(obj);
   }
-
 
 }

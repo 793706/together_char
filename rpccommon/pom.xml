@@ -9,9 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>rpc_model</artifactId>
-  <dependencies>
+  <artifactId>rpc_common</artifactId>
 
-  </dependencies>
 
 </project>

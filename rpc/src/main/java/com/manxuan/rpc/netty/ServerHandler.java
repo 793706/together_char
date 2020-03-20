@@ -1,20 +1,27 @@
 package com.manxuan.rpc.netty;
 
-import com.manxuan.rpc.interfaces.UserImpl;
+import com.manxuan.rpc.ioc.BeanContainer;
+import com.manxuan.rpc.ioc.Ioc;
 import com.manxuan.rpc.netty.util.RpcRequest;
 import com.manxuan.rpc.netty.util.RpcResponse;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import java.lang.reflect.InvocationTargetException;
 import net.sf.cglib.reflect.FastClass;
 import net.sf.cglib.reflect.FastMethod;
 
 public class ServerHandler extends SimpleChannelInboundHandler<RpcRequest> {
+  public BeanContainer beanContainer;
+
+  public ServerHandler() {
+    this.beanContainer =BeanContainer.getInstance();
+    beanContainer.loadBean();
+    new Ioc().doIoc();
+  }
 
   @Override
   protected void channelRead0(ChannelHandlerContext ctx, RpcRequest msg)
       throws Exception {
-    System.out.println("read from Client"+msg);
+    System.out.println("read from Client "+msg);
     RpcResponse rpcResponse=new RpcResponse();
     rpcResponse.setRequestId(msg.getRequestId());
     try{
@@ -27,18 +34,33 @@ public class ServerHandler extends SimpleChannelInboundHandler<RpcRequest> {
     ctx.writeAndFlush(rpcResponse);
   }
 
-  private Object handler(RpcRequest request)throws ClassNotFoundException, InvocationTargetException {
-    Class<?>clazz=Class.forName(request.getClassName());
-    UserImpl user=new UserImpl();
-    Class<?>serviceClass=user.getClass();
+  @Override
+  public void channelWritabilityChanged(ChannelHandlerContext ctx) throws Exception {
+    super.channelWritabilityChanged(ctx);
+  }
 
-    String methodName=request.getMethodName();
-    Class<?>[]parametherTypes=request.getParameterTypes();
-    Object []parameters=request.getParameter();
+  private Object handler(RpcRequest request){
+    try {
+      Class<?>clazz=Class.forName(request.getClassName());
+      System.out.println();
+      Object serverBean=BeanContainer.getInstance().getBean(clazz);
 
-    FastClass fastClass=FastClass.create(serviceClass);
-    FastMethod fastMethod= fastClass.getMethod(methodName,parametherTypes);
+      System.out.println("serverBean= "+serverBean.toString());
 
-    return fastMethod.invoke(user,parameters);
+      Class<?> serviceClass = serverBean.getClass();
+      String methodName = request.getMethodName();
+      //System.out.println("methodName= " + methodName);
+
+      Class<?>[] parameterTypes = request.getParameterTypes();
+      Object[] parameters = request.getParameter();
+
+      FastClass fastClass = FastClass.create(serviceClass);
+      FastMethod fastMethod = fastClass.getMethod(methodName, parameterTypes);
+
+      return fastMethod.invoke(serverBean, parameters);
+    }catch (Exception e){
+      e.printStackTrace();
+      return e.getCause();
+    }
   }
 }

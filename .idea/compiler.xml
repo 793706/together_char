@@ -8,15 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rpc" />
-        <module name="rpc_model" />
+        <module name="rpc_common" />
         <module name="rpcClient" />
+        <module name="rpccommon" />
         <module name="rpcserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="rpc_client" target="1.7" />
       <module name="rpc_common" target="1.7" />
+      <module name="rpc_model" target="1.7" />
       <module name="rpc_server" target="1.7" />
+      <module name="rpccommon" target="1.7" />
       <module name="rpcserver" target="1.7" />
     </bytecodeTargetLevel>
   </component>

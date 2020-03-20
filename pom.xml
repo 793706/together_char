@@ -11,11 +11,9 @@
   <version>1.0-SNAPSHOT</version>
   <!--子模块-->
   <modules>
-
     <module>rpc</module>
-    <module>rpc_model</module>
     <module>rpcClient</module>
-
+    <module>rpccommon</module>
   </modules>
 
   <name>base</name>
@@ -30,7 +28,6 @@
   </properties>
 
   <dependencies>
-
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-all</artifactId>
@@ -41,11 +38,11 @@
       <artifactId>fastjson</artifactId>
       <version>1.2.38</version>
     </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-configuration-process</artifactId>
-      <optional>true</optional>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.springframework.boot</groupId>-->
+      <!--<artifactId>spring-boot-configuration-process</artifactId>-->
+      <!--<optional>true</optional>-->
+    <!--</dependency>-->
 
     <dependency>
       <groupId>org.yaml</groupId>

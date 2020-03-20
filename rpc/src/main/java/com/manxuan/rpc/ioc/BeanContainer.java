@@ -1,10 +1,11 @@
-package com.manxuan.version3.core;
+package com.manxuan.rpc.ioc;
 
-import com.manxuan.version3.core.annotation.Component;
-import com.manxuan.version3.core.annotation.Controller;
-import com.manxuan.version3.core.annotation.Repository;
-import com.manxuan.version3.core.annotation.Service;
-import com.manxuan.version3.util.ClassUtil;
+import com.manxuan.rpc.ioc.annotation.Bean;
+import com.manxuan.rpc.ioc.annotation.Component;
+import com.manxuan.rpc.ioc.annotation.Controller;
+import com.manxuan.rpc.ioc.annotation.Repository;
+import com.manxuan.rpc.ioc.annotation.Service;
+import com.manxuan.rpc.ioc.util.ClassUtil;
 import java.lang.annotation.Annotation;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -24,19 +25,24 @@ public class BeanContainer {
   /**
    * 获取Bean容器实例
    */
-  public static BeanContainer getInstance(){
+  public static BeanContainer getInstance() {
     return ContainerHolder.HOLDER.instance;
   }
-  private enum ContainerHolder{
+
+  private enum ContainerHolder {
     /**
      *
      */
     HOLDER;
-    private  BeanContainer instance;
-    ContainerHolder(){
-      instance=new BeanContainer();
+    private BeanContainer instance;
+
+    ContainerHolder() {
+      instance = new BeanContainer();
     }
   }
+
+
+
   /**
    * 是否加载Bean
    */
@@ -46,7 +52,7 @@ public class BeanContainer {
    * 加载bean的注解列表
    */
   private static final List<Class<? extends Annotation>> BEAN_ANNOTATION
-      = Arrays.asList(Component.class,Controller.class, Service.class, Repository.class);
+      = Arrays.asList(Component.class, Controller.class, Service.class, Repository.class, Bean.class);
 
   /**
    * 存放所有Bean的Map
@@ -120,15 +126,14 @@ public class BeanContainer {
   }
 
   /**
-   * 扫描加载所有Bean-----自动加载包下的bean
+   * 扫描加载所有Bean
    */
-  public void loadBean(String basePackage){
+  public  void loadBean() {
     if (isLoadBean()) {
       log.warn("bean已经加载");
       return;
     }
-
-
+    String basePackage="com.manxuan.rpc.netty.util";
     Set<Class<?>> classSet = ClassUtil.getPackageClass(basePackage);
     classSet.stream()
         .filter(clz -> {

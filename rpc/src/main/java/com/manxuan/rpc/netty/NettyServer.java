@@ -1,5 +1,10 @@
 package com.manxuan.rpc.netty;
 
+import com.manxuan.rpc.netty.util.JSONSerializer;
+import com.manxuan.rpc.netty.util.RpcDecoder;
+import com.manxuan.rpc.netty.util.RpcEncoder;
+import com.manxuan.rpc.netty.util.RpcRequest;
+import com.manxuan.rpc.netty.util.RpcResponse;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -9,18 +14,18 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.codec.serialization.ClassResolvers;
+import io.netty.handler.codec.serialization.ObjectDecoder;
+import io.netty.handler.codec.serialization.ObjectEncoder;
 
 public class NettyServer {
 
   private EventLoopGroup boss = null;
   private EventLoopGroup worker = null;
-  private ServerHandler serverHandler;
 
   public void start() throws Exception {
     boss = new NioEventLoopGroup();
     worker = new NioEventLoopGroup();
-
-    serverHandler=new ServerHandler();
 
     ServerBootstrap serverBootstrap = new ServerBootstrap();
     serverBootstrap.group(boss, worker)
@@ -31,7 +36,10 @@ public class NettyServer {
           protected void initChannel(SocketChannel ch) throws Exception {
             ChannelPipeline pipeline = ch.pipeline();
             //添加请求处理器
-            pipeline.addLast(serverHandler);
+            pipeline.addLast(new RpcEncoder(RpcResponse.class, new JSONSerializer()));
+            //添加编码器
+            pipeline.addLast(new RpcDecoder(RpcRequest.class, new JSONSerializer()));
+            pipeline.addLast(new ServerHandler());
           }
         });
     bind(serverBootstrap,8080);

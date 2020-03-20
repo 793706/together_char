@@ -1,7 +1,7 @@
-package com.manxuan.version3.core;
+package com.manxuan.rpc.ioc;
 
-import com.manxuan.version3.core.annotation.Autowired;
-import com.manxuan.version3.util.ClassUtil;
+import com.manxuan.rpc.ioc.annotation.Autowired;
+import com.manxuan.rpc.ioc.util.ClassUtil;
 import java.lang.reflect.Field;
 import java.util.Optional;
 import lombok.extern.log4j.Log4j;
