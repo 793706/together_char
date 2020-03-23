@@ -27,9 +27,7 @@ public class ServerStart {
   }
 
   public static void main(String[] args) {
-
     init();
-
   ((ServerStart)BeanContainer.getInstance().getBean(ServerStart.class)).startRun();
   }
 

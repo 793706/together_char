@@ -1,8 +1,9 @@
 package com.manxuan.rpc.netty.util;
 
 import java.io.Serializable;
+import java.util.Arrays;
 
-  public class RpcRequest implements Serializable {
+public class RpcRequest implements Serializable {
 
 
   private String requestId;
@@ -49,5 +50,16 @@ import java.io.Serializable;
 
   public void setParameter(Object[] parameter) {
     this.parameter = parameter;
+  }
+
+  @Override
+  public String toString() {
+    return "RpcRequest{" +
+        "requestId='" + requestId + '\'' +
+        ", className='" + className + '\'' +
+        ", methodName='" + methodName + '\'' +
+        ", parameterTypes=" + Arrays.toString(parameterTypes) +
+        ", parameter=" + Arrays.toString(parameter) +
+        '}';
   }
 }

@@ -13,7 +13,8 @@
   <modules>
     <module>rpc</module>
     <module>rpcClient</module>
-    <module>rpccommon</module>
+    <module>rpc_Common</module>
+    <module>rpc_Common</module>
   </modules>
 
   <name>base</name>

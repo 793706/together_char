@@ -22,7 +22,9 @@ public class Ioc {
     for (Class<?> clz : beanContainer.getClasses()) {
       //遍历Bean容器中所有的Bean
       final Object targetBean = beanContainer.getBean(clz);
+
       Field[] fields = clz.getDeclaredFields();
+      System.out.println("fields.length= "+fields.length);
       //遍历Bean中的所有属性
       for (Field field : fields) {
         if (field.isAnnotationPresent(Autowired.class)) {

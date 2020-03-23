@@ -2,49 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bb81029-b512-45f2-a142-b3a772b65169" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/BeanContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/Ioc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Autowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/util/ClassUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/util/ValidateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/JSONSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpccommon/rpccommon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpccommon/src/main/java/haha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_Common/src/main/java/interfaces/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/StarProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/UserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/UserImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/BeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/BeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/Ioc.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/Ioc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcEncoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpcClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpcClient/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpcClient/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcClient/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcClient/src/main/java/inter_face/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpccommon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_model/src/main/java/rpc_client/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_model/src/main/java/rpc_client/ClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_model/src/main/java/rpc_server/EchoServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_model/src/main/java/rpc_server/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/BeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/BeanContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/Ioc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/Ioc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpccommon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_Common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpccommon/rpccommon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpccommon/src/main/java/haha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manxuan/version3/ServerStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manxuan/version3/ServerStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -121,60 +98,62 @@
     <session id="-297864617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="34" />
-          <entry key="java" value="21546" />
+          <entry key="java" value="22763" />
           <entry key="properties" value="48" />
-          <entry key="txt" value="52" />
-          <entry key="xml" value="143" />
+          <entry key="txt" value="81" />
+          <entry key="xml" value="160" />
           <entry key="yml" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21546" />
-          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="JAVA" value="22763" />
+          <entry key="PLAIN_TEXT" value="115" />
           <entry key="Properties" value="48" />
-          <entry key="XML" value="143" />
+          <entry key="XML" value="160" />
           <entry key="YAML" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="11" />
+          <entry key="class" value="15" />
           <entry key="iml" value="4" />
-          <entry key="java" value="510" />
+          <entry key="java" value="577" />
           <entry key="md" value="1" />
           <entry key="properties" value="3" />
+          <entry key="text" value="1" />
           <entry key="txt" value="8" />
-          <entry key="xml" value="46" />
+          <entry key="xml" value="47" />
           <entry key="yaml" value="1" />
           <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="11" />
+          <entry key="CLASS" value="15" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="510" />
+          <entry key="JAVA" value="577" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="46" />
+          <entry key="XML" value="47" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -186,34 +165,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpccommon/rpccommon.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpccommon/src/main/java/haha.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/UserImpl.java">
+        <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -221,43 +176,109 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpcClient/src/main/java/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="242">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpcClient/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="21" selection-end-column="17" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpccommon/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/Ioc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+            <state relative-caret-position="-418">
+              <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/util/ClassUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/BeanContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#2034#2035#0" expanded="true" />
+                <element signature="e#2067#2068#0" expanded="true" />
+                <element signature="e#3282#3283#0" expanded="true" />
+                <element signature="e#3309#3310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/UserImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcInvocationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+              <folding>
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -288,6 +309,7 @@
       <find>ClientHandler</find>
       <find>start</find>
       <find>PropertiesUtil</find>
+      <find>BEAN_ANNOTATION</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -296,9 +318,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/util/msgMap.java" />
-        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/Client.java" />
-        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/util/test.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/RpcRequest.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/RpcResponse.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NoClientHandler.java" />
@@ -311,42 +330,45 @@
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/Main.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ClientMain.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RPCTransport.java" />
-        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcResponse.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/util/MsgMap.java" />
         <option value="$PROJECT_DIR$/rpcClient/src/main/java/inter_face/User.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/Proxy.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerMain.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcClient.java" />
-        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcRequest.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/Serializer.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/JSONSerializer.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcEncoder.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcDecoder.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyServer.java" />
-        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcInvocationHandler.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyClient.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/Ioc.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Controller.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/util/yamlUtil.java" />
-        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/Ioc.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Bean.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/util/PropertiesUtil.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/util/ClassUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/BeanContainer.java" />
-        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/BeanContainer.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/User.java" />
-        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerHandler.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/StarProxy.java" />
         <option value="$PROJECT_DIR$/rpc_common/src/main/java/interfaces/User.java" />
         <option value="$PROJECT_DIR$/rpc_common/src/main/java/interfaces/hahah.java" />
-        <option value="$PROJECT_DIR$/rpcClient/src/main/java/Client.java" />
         <option value="$PROJECT_DIR$/rpc_common/pom.xml" />
         <option value="$PROJECT_DIR$/rpccommon/src/main/java/haha.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/rpcClient/pom.xml" />
         <option value="$PROJECT_DIR$/rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/rpcClient/pom.xml" />
+        <option value="$PROJECT_DIR$/rpcClient/src/main/java/Client.java" />
+        <option value="$PROJECT_DIR$/rpc_Common/src/main/java/interfaces/User.java" />
+        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcRequest.java" />
+        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/manxuan/version3/ServerStart.java" />
+        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/Ioc.java" />
+        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/ApplicationContext.java" />
+        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/BeanContainer.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/UserImpl.java" />
+        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerHandler.java" />
       </list>
     </option>
   </component>
@@ -374,11 +396,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rpc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="rpcClient" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rpc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="rpcClient" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -386,8 +408,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="945" />
-    <option name="y" value="42" />
+    <option name="x" value="701" />
+    <option name="y" value="116" />
     <option name="width" value="903" />
     <option name="height" value="949" />
   </component>
@@ -414,6 +436,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -492,31 +516,169 @@
             <path>
               <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
               <item name="together_char" type="462c0819:PsiDirectoryNode" />
-              <item name="rpcClient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
-              <item name="together_char" type="462c0819:PsiDirectoryNode" />
-              <item name="rpcClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
-              <item name="together_char" type="462c0819:PsiDirectoryNode" />
-              <item name="rpccommon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
-              <item name="together_char" type="462c0819:PsiDirectoryNode" />
-              <item name="rpccommon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
-              <item name="together_char" type="462c0819:PsiDirectoryNode" />
-              <item name="rpccommon" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manxuan" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manxuan" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manxuan" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manxuan" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc_Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc_Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc_Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc_Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc_Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manxuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manxuan" type="462c0819:PsiDirectoryNode" />
+              <item name="version3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manxuan" type="462c0819:PsiDirectoryNode" />
+              <item name="version3" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
@@ -526,14 +688,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584694934864" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584951029666" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/rpcClient/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../thread" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -550,8 +710,8 @@
       <recent name="com.manxuan.version3.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\demo_together\together_char\rpc\src\main\java\com\manxuan\rpc\ioc\annotation" />
       <recent name="D:\IdeaProjects\demo_together\together_char\rpc\src\main\java\com\manxuan\rpc\ioc" />
+      <recent name="D:\IdeaProjects\demo_together\together_char\rpc\src\main\java\com\manxuan\rpc\ioc\annotation" />
       <recent name="D:\IdeaProjects\demo_together\together_char\rpc\src\main\java\com\manxuan\rpc\netty" />
       <recent name="D:\IdeaProjects\demo_together\together_char\rpc_model\src\main\java\rpc_server" />
       <recent name="D:\IdeaProjects\demo_together\together_char\src\main\resources" />
@@ -575,7 +735,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.haha">
+  <component name="RunManager" selected="Application.Client (1)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="rpcClient" />
@@ -638,9 +798,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.haha" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.ServerMain" />
+        <item itemvalue="Application.haha" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Client" />
       </list>
@@ -672,6 +832,8 @@
       <workItem from="1584410624630" duration="86114000" />
       <workItem from="1584692971994" duration="1834000" />
       <workItem from="1584694831319" duration="306000" />
+      <workItem from="1584695156257" duration="70000" />
+      <workItem from="1584928642424" duration="20160000" />
     </task>
     <task id="LOCAL-00001" summary="2020/01/17修改客户端输出提示">
       <created>1579228518059</created>
@@ -708,11 +870,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584607687314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2020/01/17功能增加，为RPC增加IOC框架">
+      <created>1584695217086</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584695217086</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303512000" />
+    <option name="totallyTimeSpent" value="323742000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,18 +900,18 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50145346" side_tool="true" weight="0.14765458" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4985465" visible="true" weight="0.35501066" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4985465" visible="true" weight="0.24307036" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.20884521" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5010661" side_tool="true" weight="0.38327906" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50159913" side_tool="true" weight="0.23235613" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.33046684" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4989339" weight="0.23235613" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.31487513" />
-      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.27470142" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49840087" weight="0.45602605" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.29098806" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.27470142" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32923833" />
@@ -751,7 +920,7 @@
       <window_info anchor="right" id="Database" order="2" weight="0.32896176" />
       <window_info anchor="right" id="RestServices" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.18176973" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.40405118" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
@@ -767,7 +936,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020/01/17修改客户端输出提示" />
     <MESSAGE value="2020/01/17version2版本修改，使用Selector" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/01/17version2版本修改，使用Selector" />
+    <MESSAGE value="2020/01/17功能增加，为RPC增加IOC框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/01/17功能增加，为RPC增加IOC框架" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -784,94 +954,10 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcClient.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerHandler.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-293">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/annotation/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/annotation/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/util/SaveMessage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/util/SaveMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/util/PropertiesUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/util/yamlUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="226" column="5" lean-forward="true" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -896,9 +982,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/util/PropertiesUtil.java" />
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/util/ValidateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/StarProxy.java" />
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/User.java" />
+    <entry file="file://$PROJECT_DIR$/rpc/rpc.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc_common/src/main/java/interfaces/hahah.java" />
+    <entry file="file://$PROJECT_DIR$/rpc_common/rpc_common.iml" />
+    <entry file="file://$PROJECT_DIR$/rpccommon/rpccommon.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpccommon/src/main/java/haha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpccommon/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc_Common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcClient/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="132">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
@@ -910,42 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/util/PropertiesUtil.java" />
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/util/ValidateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/util/ClassUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="102" column="47" selection-start-line="102" selection-start-column="47" selection-end-line="102" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/BeanContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/Ioc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Autowired.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -953,52 +1074,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/Serializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/BeanContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/ServerStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="32" column="71" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Bean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1012,91 +1091,226 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/StarProxy.java" />
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/User.java" />
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerMain.java">
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/ApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/rpc.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/Ioc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc_common/src/main/java/interfaces/User.java" />
-    <entry file="file://$PROJECT_DIR$/rpc_common/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/rpc_common/src/main/java/interfaces/hahah.java" />
-    <entry file="file://$PROJECT_DIR$/rpc_common/rpc_common.iml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="226" column="5" lean-forward="true" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/ServerStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/core/BeanContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/annotation/Bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc_Common/src/main/java/interfaces/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="1438" selection-start-line="1438" selection-end-line="1438" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/Ioc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        <state relative-caret-position="-418">
+          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpccommon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="193">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpccommon/rpccommon.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpccommon/src/main/java/haha.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/2.2.2/cglib-2.2.2.jar!/net/sf/cglib/core/AbstractClassGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="440">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/2.2.2/cglib-2.2.2.jar!/net/sf/cglib/reflect/FastClass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#3669#3670#0" expanded="true" />
+            <element signature="e#3696#3697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/UserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/util/ClassUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/2.2.2/cglib-2.2.2.jar!/net/sf/cglib/reflect/FastMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+          <folding>
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/util/RpcResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/BeanContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2067#2068#0" expanded="true" />
+            <element signature="e#3282#3283#0" expanded="true" />
+            <element signature="e#3309#3310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rpcClient/src/main/java/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        <state relative-caret-position="242">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpcClient/pom.xml">
+    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/UserImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="466">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,11 +1366,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>rpc</last-edited>
+          <last-edited>base</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

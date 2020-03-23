@@ -1,4 +1,5 @@
 import com.manxuan.rpc.RpcClient;
+import interfaces.User;
 
 public class Client {
 
@@ -6,10 +7,10 @@ public class Client {
 
     RpcClient rpcClient = new RpcClient("10.168.1.118",8080);
 
-//
-//    User user=rpcClient.getProxy(User.class);
-//    String result=user.addUser(20);
-//    System.out.println("结果是"+result);
+
+    User user=rpcClient.getProxy(User.class);
+    String result=user.addUser(20);
+    System.out.println("结果是"+result);
 
   }
 }
