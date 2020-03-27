@@ -1,5 +1,6 @@
 package com.manxuan.rpc.netty;
 
+import com.manxuan.rpc.ClientHandler;
 import com.manxuan.rpc.netty.util.JSONSerializer;
 import com.manxuan.rpc.netty.util.RpcDecoder;
 import com.manxuan.rpc.netty.util.RpcEncoder;
@@ -24,7 +25,6 @@ public class NettyClient {
   private String host;
   private int port;
   private Channel channel;
-
 
   //连接服务端的端口号地址和端口号
   public NettyClient(String host, int port) {
@@ -63,8 +63,6 @@ public class NettyClient {
     }
     channel=f.channel();
   }
-
-
 
   public RpcResponse send(final RpcRequest request) {
     //System.out.println("准备发送消息");

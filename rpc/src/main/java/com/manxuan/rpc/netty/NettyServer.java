@@ -1,5 +1,6 @@
 package com.manxuan.rpc.netty;
 
+import com.manxuan.rpc.ServerHandler;
 import com.manxuan.rpc.netty.util.JSONSerializer;
 import com.manxuan.rpc.netty.util.RpcDecoder;
 import com.manxuan.rpc.netty.util.RpcEncoder;
@@ -14,9 +15,6 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.handler.codec.serialization.ClassResolvers;
-import io.netty.handler.codec.serialization.ObjectDecoder;
-import io.netty.handler.codec.serialization.ObjectEncoder;
 
 public class NettyServer {
 

@@ -13,12 +13,9 @@
         <module name="rpcserver" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="rpc_client" target="1.7" />
-      <module name="rpc_model" target="1.7" />
-      <module name="rpc_server" target="1.7" />
-      <module name="rpccommon" target="1.7" />
-      <module name="rpcserver" target="1.7" />
+    <bytecodeTargetLevel target="8">
+      <module name="ioc" target="1.7" />
+      <module name="register" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

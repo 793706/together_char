@@ -1,4 +1,4 @@
-package com.manxuan.rpc.netty;
+package com.manxuan.rpc;
 
 import com.manxuan.rpc.netty.util.RpcRequest;
 import com.manxuan.rpc.netty.util.RpcResponse;
@@ -13,7 +13,6 @@ public class ClientHandler extends ChannelDuplexHandler {
   @Override
   public void write(ChannelHandlerContext ctx, Object msg, ChannelPromise promise)
       throws Exception {
-    //System.out.println("Client write "+msg.toString());
     if(msg instanceof RpcRequest){
       RpcRequest request=(RpcRequest)msg;
       MsgMap.requestMap.put(request.getRequestId(),null);

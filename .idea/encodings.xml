@@ -2,9 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ioc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/register" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpcClient" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_Common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rpccommon" charset="UTF-8" />
   </component>
 </project>

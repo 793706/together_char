@@ -7,10 +7,6 @@ import com.manxuan.version3.core.annotation.Controller;
 import java.io.IOException;
 import lombok.extern.log4j.Log4j;
 
-/**
- * Hello world!
- */
-
 @Log4j
 @Controller
 public class ServerStart {

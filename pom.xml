@@ -15,20 +15,27 @@
     <module>rpcClient</module>
     <module>rpc_Common</module>
     <module>rpc_Common</module>
+    <module>register</module>
   </modules>
 
   <name>base</name>
   <url>http://www.example.com</url>
 
   <properties>
+
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <slf4j-api.version>1.7.25</slf4j-api.version>
     <lombok.version>1.16.20</lombok.version>
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.apache.zookeeper</groupId>
+      <artifactId>zookeeper</artifactId>
+      <version>3.4.12</version>
+    </dependency>
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-all</artifactId>

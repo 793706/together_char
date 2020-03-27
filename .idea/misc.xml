@@ -9,6 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/register/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-client/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-server/pom.xml" />
         <option value="$PROJECT_DIR$/rpc_client/pom.xml" />
