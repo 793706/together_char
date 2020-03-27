@@ -16,5 +16,6 @@ public class Client {
 
     System.out.println("结果是"+result);
     System.out.println(people.run("张三"));
+    System.out.println("!!!!!");
   }
 }

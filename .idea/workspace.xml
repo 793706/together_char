@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0bb81029-b512-45f2-a142-b3a772b65169" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcClient/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcClient/src/main/java/Client.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,7 +108,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="34" />
-          <entry key="java" value="27266" />
+          <entry key="java" value="27287" />
           <entry key="properties" value="48" />
           <entry key="txt" value="110" />
           <entry key="xml" value="211" />
@@ -116,7 +117,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="27266" />
+          <entry key="JAVA" value="27287" />
           <entry key="PLAIN_TEXT" value="144" />
           <entry key="Properties" value="48" />
           <entry key="XML" value="211" />
@@ -170,11 +171,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rpcClient/src/main/java/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="396">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,11 +204,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="140" column="12" lean-forward="true" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
+            <state relative-caret-position="528">
+              <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
             </state>
           </provider>
         </entry>
@@ -349,12 +350,12 @@
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/util/MsgMap.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ClientHandler.java" />
         <option value="$PROJECT_DIR$/rpc_Common/src/main/java/interfaces/People.java" />
-        <option value="$PROJECT_DIR$/rpcClient/src/main/java/Client.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/PeopleImpl.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ServerMain.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/test.java" />
         <option value="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/manxuan/version3/ServerStart.java" />
+        <option value="$PROJECT_DIR$/rpcClient/src/main/java/Client.java" />
       </list>
     </option>
   </component>
@@ -436,6 +437,42 @@
             <path>
               <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
               <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc_Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="together_char" type="b2602c69:ProjectViewProjectNode" />
+              <item name="together_char" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -492,7 +529,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585300042244" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585300106611" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/rpcClient/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../thread" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -646,7 +683,7 @@
       <workItem from="1585104174714" duration="178000" />
       <workItem from="1585104369675" duration="31399000" />
       <workItem from="1585201856257" duration="14332000" />
-      <workItem from="1585286756186" duration="2288000" />
+      <workItem from="1585286756186" duration="2499000" />
     </task>
     <task id="LOCAL-00001" summary="2020/01/17修改客户端输出提示">
       <created>1579228518059</created>
@@ -704,11 +741,25 @@
       <option name="project" value="LOCAL" />
       <updated>1585292461993</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2020/01/17功能增加，修改IOC框架融合时产生的BUG">
+      <created>1585299909144</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585299909144</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2020/01/17功能增加，修改IOC框架融合时产生的BUG">
+      <created>1585300064197</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585300064197</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385473000" />
+    <option name="totallyTimeSpent" value="385684000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1053,16 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpcClient/src/main/java/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/BeanContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1848">
@@ -1130,8 +1171,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="140" column="12" lean-forward="true" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
+        <state relative-caret-position="528">
+          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcClient/src/main/java/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
