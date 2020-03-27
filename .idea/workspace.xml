@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bb81029-b512-45f2-a142-b3a772b65169" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/PeopleImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/interfaces/testt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/zooKeeper/ZKServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/zooKeeper/ZkClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_Common/src/main/java/interfaces/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/RpcInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/Ioc.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ioc/Ioc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/NettyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/netty/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/ServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/util/MsgMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/util/MsgMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/manxuan/rpc/util/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcClient/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcClient/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manxuan/version3/ServerStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manxuan/version3/ServerStart.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -229,8 +206,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4435">
-              <caret line="226" column="5" lean-forward="true" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
+            <state relative-caret-position="440">
+              <caret line="140" column="12" lean-forward="true" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -515,7 +492,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585287412720" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585299894958" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/rpcClient/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../thread" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -669,7 +646,7 @@
       <workItem from="1585104174714" duration="178000" />
       <workItem from="1585104369675" duration="31399000" />
       <workItem from="1585201856257" duration="14332000" />
-      <workItem from="1585286756186" duration="887000" />
+      <workItem from="1585286756186" duration="2288000" />
     </task>
     <task id="LOCAL-00001" summary="2020/01/17修改客户端输出提示">
       <created>1579228518059</created>
@@ -720,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584951074793</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2020/01/17功能增加，修改IOC框架融合时产生的BUG">
+      <created>1585292461993</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585292461993</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384072000" />
+    <option name="totallyTimeSpent" value="385473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -737,6 +721,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="ZooKeeper" order="0" weight="0.19083156" />
       <window_info id="Designer" order="1" />
@@ -994,6 +979,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,6 +990,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,6 +1030,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,8 +1130,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manxuan/version3/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4435">
-          <caret line="226" column="5" lean-forward="true" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
+        <state relative-caret-position="440">
+          <caret line="140" column="12" lean-forward="true" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
         </state>
       </provider>
     </entry>
