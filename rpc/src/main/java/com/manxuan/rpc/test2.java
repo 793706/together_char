@@ -1,4 +1,5 @@
-package com.manxuan.rpc.zooKeeper;
+package com.manxuan.rpc;
+
 
 import com.manxuan.rpc.ioc.BeanContainer;
 import com.manxuan.rpc.ioc.Ioc;
@@ -16,7 +17,7 @@ import org.apache.zookeeper.ZooKeeper;
 /**
  * 服务器启动，向zk注册一个节点，节点名为ip地址
  */
-public class ZKServer{
+public class test2{
 
   /**
    * 注册中心端口号
@@ -25,12 +26,13 @@ public class ZKServer{
   private int sessionTimeout = 3000;
   ZooKeeper zkCli = null;
   static String[] interface_name;
+
   /**
    * 定义父节点
    */
   private String parentNode = "/Service";
 
-  public ZKServer() {
+  public test2() {
     interface_name = getInterface_name();
     try {
       //连接zkServer
@@ -71,6 +73,7 @@ public class ZKServer{
   }
 
 
+
   /**
    * 连接zkServer
    */
@@ -92,6 +95,7 @@ public class ZKServer{
     //System.out.println(path);
   }
 
+
   // 2.注册信息
   public void regist(String[] serviceName) throws KeeperException, InterruptedException {
     String node=parentNode+"/";
@@ -109,5 +113,10 @@ public class ZKServer{
     Thread.sleep(Long.MAX_VALUE);
   }
 
+
+  public static void main(String[] args) throws InterruptedException {
+    test2 test2=new test2();
+    Thread.sleep(Long.MAX_VALUE);
+  }
 }
 

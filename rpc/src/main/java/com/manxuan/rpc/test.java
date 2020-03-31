@@ -1,40 +1,42 @@
 package com.manxuan.rpc;
 
-import com.manxuan.rpc.ioc.BeanContainer;
-import com.manxuan.rpc.ioc.Ioc;
-import com.manxuan.rpc.netty.util.RpcRequest;
-import java.util.Iterator;
+import com.manxuan.rpc.zooKeeper.ZooKeeperProSync;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 
+
+/**
+ * 服务器启动，向zk注册一个节点，节点名为ip地址
+ */
 public class test {
 
-  public static void main(String[] args) throws ClassNotFoundException {
-    BeanContainer.getInstance().loadBean();
-    new Ioc().doIoc();
+  public static Map<String,String> server ;
+  static Scanner scanner = new Scanner(System.in);
+  static List<String> children = null;
+  public static ZooKeeperProSync zooKeeperProSync;
 
-    Class<?> serviceClass = null;
-    Object bean = null;
-    RpcRequest request = new RpcRequest();
-    request.setClassName("interfaces.User");
+  public static void main(String[] args) throws Exception {
+    zooKeeperProSync = new ZooKeeperProSync();
+    zooKeeperProSync.getConnect();
 
-    //获取所有Bean实例
-    Set beans = BeanContainer.getInstance().getBeans();
-    System.out.println("beans.size=" + beans.size());
-
-    //遍历所有bean
-    Iterator it = beans.iterator();
-    while (it.hasNext()) {
-      Object ob=it.next();
-      Class clz[] = ob.getClass().getInterfaces();
-      if (clz[0].getName() == request.getClassName()) {
-        serviceClass = (Class) clz[0];
-        bean=ob;
+    while (true) {
+      System.out.println("请输入：");
+      String request = scanner.nextLine();
+      if(request.equals("1")){
+        pirct();
       }
     }
+  }
 
-    System.out.println(serviceClass.getName());
-    System.out.println(bean.toString());
-
+  public static void pirct() {
+    server=zooKeeperProSync.getService();
+    Set<String> set=server.keySet();
+    for(String key:set){
+      System.out.println(server.get(key));
+    }
   }
 }
+
 

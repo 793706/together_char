@@ -30,8 +30,8 @@ public class Client {
         socketChannel.write(Charset.forName("UTF-8").encode("UserName:" + nickName));
     }
 
-    // 向服务器端发送数据
 
+    // 向服务器端发送数
     while (scanner.hasNextLine()) {
       String request = scanner.nextLine();
       if ((request != null) && (request.length() > 0)) {

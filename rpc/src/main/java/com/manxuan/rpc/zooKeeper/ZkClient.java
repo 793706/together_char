@@ -10,11 +10,13 @@ import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooKeeper;
 
-
 public class ZkClient {
 
-  public static Map<String,String> server ;
+  public Map<String,String> server ;
   public static ArrayList<String> serverList;
+  private String connectString = "10.168.1.118:2181";
+  private int sessionTimeout = 3000;
+  ZooKeeper zkCli = null;
 
   public ZkClient() {
     try{
@@ -22,7 +24,6 @@ public class ZkClient {
       this.getConnect();
       // 2.监听服务的节点信息
       this.getServers();
-      // 3.业务逻辑（一直监听）
 
     }catch (Exception e){
       e.getMessage();
@@ -34,7 +35,12 @@ public class ZkClient {
     Thread.sleep(Long.MAX_VALUE);
   }
 
-  // 2.监听服务的节点信息
+  /**
+   * 获取Service节点下的服务信息
+   * 节点名为接口名称，节点信息为（ip地址+":"+端口号+“-”+接口名称）
+   * @throws KeeperException
+   * @throws InterruptedException
+   */
   public void getServers() throws KeeperException, InterruptedException {
     List<String> children = zkCli.getChildren("/Service", true);
     ArrayList<String> serverList = new ArrayList<String>();
@@ -45,9 +51,9 @@ public class ZkClient {
       byte[] data = zkCli.getData("/Service/" + c, true, null);
 
       String[]msg=new String(data).split("-");
-
-      System.out.println("ip地址和端口号"+msg[0]);
-      System.out.println("服务"+msg[1]);
+//
+//      System.out.println("ip地址和端口号"+msg[0]);
+//      System.out.println("服务"+msg[1]);
 
       if (server==null){
         System.out.println(true);
@@ -61,9 +67,7 @@ public class ZkClient {
 
   }
 
-  private String connectString = "10.168.1.118:2181";
-  private int sessionTimeout = 3000;
-  ZooKeeper zkCli = null;
+
 
   // 1.连接集群
   public void getConnect() throws IOException {

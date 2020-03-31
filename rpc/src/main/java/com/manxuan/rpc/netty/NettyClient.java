@@ -65,7 +65,7 @@ public class NettyClient {
   }
 
   public RpcResponse send(final RpcRequest request) {
-    //System.out.println("准备发送消息");
+
       channel.writeAndFlush(request);
       while(MsgMap.requestMap.get(request.getRequestId())==null){
       }

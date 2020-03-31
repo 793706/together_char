@@ -41,9 +41,8 @@ public class ClientHandler implements Runnable {
           SelectionKey selectionKey = (SelectionKey) iterator.next();
           // 移除Set中的当前selectionKey
           iterator.remove();
-
           // 7. 根据就绪状态，调用对应方法处理业务逻辑
-          // 如果是 可读事件
+          // 如果是可读事件
           if (selectionKey.isReadable()) {
             readHandler(selectionKey, selector);
           }

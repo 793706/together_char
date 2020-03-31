@@ -12,7 +12,9 @@ public class ServerMain {
 
     //开启Netty，随时接收服务请求
     NettyServer nettyServer=new NettyServer();
+
     nettyServer.start();
+
     zkServer.build();
   }
 }

@@ -17,14 +17,13 @@ public class RpcInvocationHandler implements InvocationHandler {
   public Map<String,String> server;
 
   public RpcInvocationHandler(String ipAndHost) {
-    this.zkClient=new ZkClient();
-    this.server=zkClient.getMap();
+//    this.zkClient=new ZkClient();
+//    this.server=zkClient.getMap();
 
-    //获取服务端的ip地址和端口号
+    //字符串处理，获取服务端的ip地址和端口号
     String []ipHost=ipAndHost.split(":");
-    System.out.println(ipHost[0]);
-    System.out.println(new Integer(ipHost[1]));
-    client = new NettyClient("10.168.1.118",8080);
+
+    client = new NettyClient(ipHost[0],new Integer(ipHost[1]));
     try {
       client.connect();
     } catch (Exception e) {
@@ -48,8 +47,7 @@ public class RpcInvocationHandler implements InvocationHandler {
     request.setParameterTypes(parameterTypes);
     request.setParameter(args);
 
-
-    System.out.println(request.toString());
+    //System.out.println(request.toString());
     RpcResponse rpcResponse=client.send(request);
 
     //Object result=rpcResponse.getResult();
